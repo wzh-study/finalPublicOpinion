@@ -6,9 +6,8 @@
 
 ### 目录结构
 
-
-
-`frontend/
+```arduino
+frontend/
 │
 ├── public/                      # 静态资源文件（会被复制到根目录）
 │   └── index.html               # 入口 HTML 文件
@@ -32,7 +31,10 @@
 │   └── plugins/                 # 插件相关配置
 │       └── element.js           # Element-UI 插件配置
 ├── package.json                 # 项目依赖配置
-└── vue.config.js                # Vue 项目配置文件（可选）`
+└── vue.config.js                # Vue 项目配置文件（可选）
+
+
+```
 
 
 
