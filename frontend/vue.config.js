@@ -23,8 +23,9 @@ module.exports = defineConfig({
   css: {
     loaderOptions: {
       scss: {
-        additionalData: `@import "@/styles/global.scss";`, // 全局引入 SCSS
-      },
-    },
+        // 使全局的 SCSS 样式文件自动加载到每个组件中
+        additionalData: `@import "@/styles/global.scss";`
+      }
+    }
   },
 });

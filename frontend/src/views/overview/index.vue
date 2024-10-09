@@ -1,11 +1,16 @@
 <template>
-  <div>
-    <h2>舆情总览</h2>
+  <div id="overview">
+    <DashBoard />
   </div>
 </template>
 
 <script>
+import DashBoard from './DashBoard.vue';
+
 export default {
-  name: 'Overview',
+  components: {
+    DashBoard,
+    // MainButton
+  },
 };
 </script>

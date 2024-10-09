@@ -1,6 +1,7 @@
 // src/store/index.js
 import Vue from 'vue';
 import Vuex from 'vuex';
+import login from './modules/login';
 
 Vue.use(Vuex);
 
@@ -19,5 +20,6 @@ export default new Vuex.Store({
   },
   modules: {
     // 模块化状态管理
+    login,
   },
 });
